@@ -32,7 +32,6 @@ CREATE TABLE transaction(
 	date DATE NOT NULL,
 	amount FLOAT NOT NULL,
 	card VARCHAR(30),
-	FOREIGN KEY (card) REFERENCES credit_card(card),
 	id_merchant INT,
 	FOREIGN KEY (id_merchant) REFERENCES merchant(id)
 );
