@@ -1,6 +1,11 @@
 ﻿-- Exported from QuickDBD: https://www.quickdatabasediagrams.com/
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
+DROP TABLE IF EXISTS card_holder;
+DROP TABLE IF EXISTS credit_card;
+DROP TABLE IF EXISTS merchant_categories;
+DROP TABLE IF EXISTS merchant;
+DROP TABLE IF EXISTS transaction;
 
 CREATE TABLE "card_holder" (
     "id" INT   NOT NULL,
