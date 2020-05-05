@@ -21,7 +21,7 @@ Define a database model to store the credit card transactions data and create a 
 
 ---
 
-## Files
+## File
 
 * [card_holder.csv](Data/card_holder.csv)
 * [credit_card.csv](Data/credit_card.csv)
